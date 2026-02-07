@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+        font-family: "Butler Bold";
+        src: url("Butler_Bold.otf");
+    }
+:root{
+    --p: #ca1717;
+    --s: #000000;
+    --t: #f0f0f0;
+}
+
+.nab{
+    /* justify-content: space-around; */
+    background-color: var(--s);
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-between;
+}
+.logo{
+    width: 195px;
+    height: 75px;
+    margin: 10px;
+    padding-left: 50px;
+    padding-right: 0px;
+    
+}
+.links ul{
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+    padding-top: 30px;
+    gap: 10px;
+margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--t);
+    font-family: "Butler Bold";
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+/* margin-top: 15px; */
+}
+.b1{
+    background-color: var(--s);
+    color: var(--t);
+    padding: 14px 20px;
+    border-radius: 30px;
+    font-family: "Butler Bold";
+    border: 1px solid var(--t);
+
+
+}
+.b2{
+    background-color: var(--p);
+    color: var(--t);
+    padding: 16px 20px;
+    border-radius: 30px;
+    font-family: "Butler Bold";
+    border: 1px solid var(--p);
+    margin-right: 18px;
+    margin-left: 15px;
+}
+.links,ul {
+   display: flex;
+   /* padding: 70px; */
+   
+}
+.b1, .b2{
+    margin-top: 23px;
+
+}
+.carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    width: 950px;
+    height: 550px;
+}
+
+.links ul a{
+    text-decoration: none;
+    list-style: none;
+    color: var(--t);
+}
+html,body{
+    background-color: black;
+}
